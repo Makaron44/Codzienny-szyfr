@@ -9,7 +9,7 @@ const Header = ({ onHelp, onStats, onSettings }) => {
           whileHover={{ rotate: -10 }}
           whileTap={{ scale: 0.9 }}
           onClick={onHelp}
-          className="p-2 text-slate-400 hover:text-white transition-colors bg-white/5 rounded-xl border border-white/10 backdrop-blur-md"
+          className="p-2 text-slate-400 hover:text-white transition-colors bg-white/5 rounded-xl border border-white/10"
         >
           <CircleHelp size={22} />
         </motion.button>
@@ -34,7 +34,7 @@ const Header = ({ onHelp, onStats, onSettings }) => {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           onClick={onStats}
-          className="p-2 text-slate-400 hover:text-white transition-colors bg-white/5 rounded-xl border border-white/10 backdrop-blur-md"
+          className="p-2 text-slate-400 hover:text-white transition-colors bg-white/5 rounded-xl border border-white/10"
         >
           <BarChart3 size={22} />
         </motion.button>
@@ -42,7 +42,7 @@ const Header = ({ onHelp, onStats, onSettings }) => {
           whileHover={{ rotate: 90 }}
           whileTap={{ scale: 0.9 }}
           onClick={onSettings}
-          className="p-2 text-slate-400 hover:text-white transition-colors bg-white/5 rounded-xl border border-white/10 backdrop-blur-md"
+          className="p-2 text-slate-400 hover:text-white transition-colors bg-white/5 rounded-xl border border-white/10"
         >
           <Settings size={22} />
         </motion.button>

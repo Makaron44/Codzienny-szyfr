@@ -28,7 +28,7 @@ const Tile = ({ value, status, delay = 0 }) => {
         transition: { duration: 0.1 }
       } : {}}
       className={cn(
-        "w-14 h-14 sm:w-16 sm:h-16 border-2 rounded-xl flex items-center justify-center text-2xl sm:text-3xl font-bold transition-colors duration-300 backdrop-blur-sm",
+        "w-14 h-14 sm:w-16 sm:h-16 border-2 rounded-xl flex items-center justify-center text-2xl sm:text-3xl font-bold transition-all duration-300",
         colors[currentStatus]
       )}
     >

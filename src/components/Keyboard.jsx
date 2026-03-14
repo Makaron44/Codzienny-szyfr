@@ -40,7 +40,7 @@ const Keyboard = ({ onKey, onDelete, onEnter, usedKeys }) => {
                   else onKey(key);
                 }}
                 className={cn(
-                  "flex-1 h-14 sm:h-16 rounded-xl font-bold flex items-center justify-center transition-all duration-200 backdrop-blur-md border border-white/5",
+                  "flex-1 h-14 sm:h-16 rounded-xl font-bold flex items-center justify-center transition-all duration-200 border border-white/5",
                   isSpecial ? "flex-[1.5] text-xs sm:text-sm" : "text-xl sm:text-2xl",
                   statusColors[status]
                 )}
