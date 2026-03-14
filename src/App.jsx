@@ -256,8 +256,13 @@ function App() {
               <p>Cyfry 9 <span className="text-slate-100 font-bold">nie ma</span> w szyfrze.</p>
             </li>
           </ul>
-          <div className="pt-4 border-t border-white/5 flex items-center gap-2 text-xs text-slate-500 italic">
-            <Info size={14} /> Kod zmienia się codziennie o północy.
+          <div className="pt-4 border-t border-white/5 space-y-2">
+            <div className="flex items-center gap-2 text-xs text-slate-500 italic">
+              <Info size={14} /> Kod zmienia się codziennie o północy.
+            </div>
+            <div className="text-[9px] text-slate-600 uppercase tracking-[0.2em]">
+              Autor: <a href="https://github.com/Makaron44" target="_blank" rel="noopener noreferrer" className="text-emerald-500/60 hover:text-emerald-400 transition-colors">Makaron44</a>
+            </div>
           </div>
         </div>
       </Modal>
@@ -434,7 +439,7 @@ function App() {
 
             <div className="pt-4 border-t border-white/5 text-[10px] text-slate-600 uppercase tracking-widest text-center leading-relaxed">
                 Wersja 2.2.0 &bull; Codzienny Szyfr Pro <br/>
-                Made with ⚡ by Antigravity
+                Projekt i wykonanie: <a href="https://github.com/Makaron44" target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-white transition-colors">Makaron44</a>
             </div>
         </div>
       </Modal>
